@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./scripts.js"></script>
+    <title>Previsão do tempo</title>
+</head>
+<body>
+    <div id="glass" class="glass">
+
+        <input id="local" placeholder="Digite uma localização">
+        <button onclick="botaoLocal()" id="buscar">
+        <img id="img-buscar" src="./img/find.svg" alt="botão de busca"></button>
+
+
+        <div id="center" class="center">
+            
+            <h2 id="cidade">Tempo em</h2>
+            <p id="celsius">0º</p>
+
+            <div id="down" class="down">
+            
+                <img id="tempo" src="./img/nuvem.png" alt="icone de nuvem">
+                <p id="previsao">Previsão</p>
+               
+            
+            </div>
+                <p id="umidade">Umidade</p>
+             </div>  
+        </div>
+    </div>    
+</body>
+</html>
